@@ -1,0 +1,308 @@
+{
+	"id": "a1946e78-fe96-414b-99d6-fddf84656491",
+	"name": "SIT331 3.2P",
+	"timestamp": "2025-02-20T13:32:31.469Z",
+	"collection_id": "40804928-f36255db-1fe2-4bb7-9ea4-b2b92b72bed0",
+	"folder_id": 0,
+	"environment_id": "40804928-7ce59161-6dd8-485f-81a3-963919fb8049",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-20T13:32:30.093Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4beb54b1-ffc4-4203-b73c-f1cad6fb109f",
+			"name": "getRobotCommands",
+			"url": "localhost:5138/api/robot-commands/",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				62
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "de20375b-d0dc-455f-8642-08732b8d13bb",
+			"name": "getMoveCommandsOnly",
+			"url": "localhost:5138/api/robot-commands/move",
+			"time": 8,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				8
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "cfe60f70-4c06-4b13-a086-1d1c121c2d7e",
+			"name": "getCommandsByID",
+			"url": "localhost:5138/api/robot-commands/1",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e42baa93-7460-4e09-b91f-4714ddba7478",
+			"name": "addNewCommand",
+			"url": "localhost:5138/api/robot-commands/",
+			"time": 56,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				56
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "9f36e6fe-767f-4e21-be7e-e2538bffd25e",
+			"name": "editCommand",
+			"url": "localhost:5138/api/robot-commands/5",
+			"time": 6,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fe17c13e-9c75-4a58-98a8-34e39bfee22c",
+			"name": "deleteCommand",
+			"url": "localhost:5138/api/robot-commands/5",
+			"time": 5,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "51cee63b-9b78-4922-85b6-ae24dbb3894c",
+			"name": "getRobotMap",
+			"url": "localhost:5138/api/maps",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a1999e9e-3bba-4df0-83f1-a1c82976a544",
+			"name": "getSquareMaps",
+			"url": "localhost:5138/api/maps/square",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "88578e07-6606-47bf-a0d7-e557aaca968b",
+			"name": "getMapByID",
+			"url": "localhost:5138/api/maps/2",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3d45ff49-918d-41f8-a03f-19fd9ac360da",
+			"name": "addNewMap",
+			"url": "localhost:5138/api/maps/",
+			"time": 12,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				12
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2cc88f44-08a5-44c7-8492-0e1ff3a961ce",
+			"name": "editMap",
+			"url": "localhost:5138/api/maps/5",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "998c0e0b-1cda-4ab6-b9d6-b5ff932e631d",
+			"name": "deleteMap",
+			"url": "localhost:5138/api/maps/5",
+			"time": 5,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f2a282a5-6b73-4eb4-a56e-40bad143c448",
+			"name": "verifyCoordinate",
+			"url": "localhost:5138/api/maps/1/10-10",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 197,
+	"collection": {
+		"requests": [
+			{
+				"id": "4beb54b1-ffc4-4203-b73c-f1cad6fb109f",
+				"method": "GET"
+			},
+			{
+				"id": "de20375b-d0dc-455f-8642-08732b8d13bb",
+				"method": "GET"
+			},
+			{
+				"id": "cfe60f70-4c06-4b13-a086-1d1c121c2d7e",
+				"method": "GET"
+			},
+			{
+				"id": "e42baa93-7460-4e09-b91f-4714ddba7478",
+				"method": "POST"
+			},
+			{
+				"id": "9f36e6fe-767f-4e21-be7e-e2538bffd25e",
+				"method": "PUT"
+			},
+			{
+				"id": "fe17c13e-9c75-4a58-98a8-34e39bfee22c",
+				"method": "DELETE"
+			},
+			{
+				"id": "51cee63b-9b78-4922-85b6-ae24dbb3894c",
+				"method": "GET"
+			},
+			{
+				"id": "a1999e9e-3bba-4df0-83f1-a1c82976a544",
+				"method": "GET"
+			},
+			{
+				"id": "88578e07-6606-47bf-a0d7-e557aaca968b",
+				"method": "GET"
+			},
+			{
+				"id": "3d45ff49-918d-41f8-a03f-19fd9ac360da",
+				"method": "POST"
+			},
+			{
+				"id": "2cc88f44-08a5-44c7-8492-0e1ff3a961ce",
+				"method": "PUT"
+			},
+			{
+				"id": "998c0e0b-1cda-4ab6-b9d6-b5ff932e631d",
+				"method": "DELETE"
+			},
+			{
+				"id": "f2a282a5-6b73-4eb4-a56e-40bad143c448",
+				"method": "GET"
+			}
+		]
+	}
+}
